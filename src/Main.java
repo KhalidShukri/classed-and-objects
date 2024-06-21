@@ -40,5 +40,18 @@ public class Main {
         System.out.println(calculator.add(4,3,7));
 
 
+
+        Car mycar = new Car();
+        mycar.start();
+        mycar.stop();
+
+        Circle1 circ2 = new Circle1(7.0);
+        System.out.println(circ2.getarea());
+        circ2.printArea();
+
+
+       sphere Sphere = new sphere(5.0);
+        Sphere.printVolume();
+        Sphere.printSurfaceArea();
     }
 }
